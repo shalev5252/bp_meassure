@@ -39,13 +39,13 @@
 
 ## 5. Domain Layer - Entities & Enums (Flutter)
 
-- [ ] 5.1 Create User entity
-- [ ] 5.2 Create Patient entity with validation
-- [ ] 5.3 Create RiskFactor entity and RiskCode enum
-- [ ] 5.4 Create Medication entity
-- [ ] 5.5 Create Reading entity with BP classification method
-- [ ] 5.6 Create BPCategory enum (Normal, HighNormal, Grade1, Grade2, Grade3, Crisis)
-- [ ] 5.7 Create PulseStatus enum (Normal, Low, High)
+- [x] 5.1 Create User entity
+- [x] 5.2 Create Patient entity with validation
+- [x] 5.3 Create RiskFactor entity and RiskCode enum
+- [x] 5.4 Create Medication entity
+- [x] 5.5 Create Reading entity with BP classification method
+- [x] 5.6 Create BPCategory enum (Normal, HighNormal, Grade1, Grade2, Grade3, Crisis)
+- [x] 5.7 Create PulseStatus enum (Normal, Low, High)
 
 ## 6. Domain Layer - Services (Flutter)
 
