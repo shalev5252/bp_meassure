@@ -15,19 +15,19 @@
 - [x] 2.1 Define app constants (BP thresholds, pulse thresholds, risk codes, context tags)
 - [x] 2.2 Create base error types and failure handling
 - [x] 2.3 Implement logging utility
-- [ ] 2.4 Create common widgets (loading, error, empty states)
-- [ ] 2.5 Implement network connectivity service (using connectivity_plus)
+- [x] 2.4 Create common widgets (loading, error, empty states)
+- [x] 2.5 Implement network connectivity service (using connectivity_plus)
 
 ## 3. Firebase Authentication (Flutter)
 
-- [ ] 3.1 Initialize Firebase in app bootstrap
-- [ ] 3.2 Create AuthService wrapper for Firebase Auth
-- [ ] 3.3 Implement sign up with email/password
-- [ ] 3.4 Implement login with email/password
-- [ ] 3.5 Implement password reset flow
-- [ ] 3.6 Implement logout functionality
-- [ ] 3.7 Create AuthStateProvider with Riverpod
-- [ ] 3.8 Write unit tests for auth flows
+- [x] 3.1 Initialize Firebase in app bootstrap
+- [x] 3.2 Create AuthService wrapper for Firebase Auth
+- [x] 3.3 Implement sign up with email/password
+- [x] 3.4 Implement login with email/password
+- [x] 3.5 Implement password reset flow
+- [x] 3.6 Implement logout functionality
+- [x] 3.7 Create AuthStateProvider with Riverpod
+- [x] 3.8 Write unit tests for auth flows
 
 ## 4. Data Layer - Database (Flutter)
 
