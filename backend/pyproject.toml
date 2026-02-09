@@ -1,0 +1,20 @@
+[project]
+name = "bp-monitor-backend"
+version = "1.0.0"
+description = "BP Monitor AI gateway backend"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.34.0",
+    "pydantic>=2.10.0",
+    "openai>=1.60.0",
+    "firebase-admin>=6.6.0",
+    "slowapi>=0.1.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.25.0",
+    "httpx>=0.28.0",
+]

@@ -12,9 +12,9 @@
 
 ## 2. Core Layer (Flutter)
 
-- [ ] 2.1 Define app constants (BP thresholds, pulse thresholds, risk codes, context tags)
-- [ ] 2.2 Create base error types and failure handling
-- [ ] 2.3 Implement logging utility
+- [x] 2.1 Define app constants (BP thresholds, pulse thresholds, risk codes, context tags)
+- [x] 2.2 Create base error types and failure handling
+- [x] 2.3 Implement logging utility
 - [ ] 2.4 Create common widgets (loading, error, empty states)
 - [ ] 2.5 Implement network connectivity service (using connectivity_plus)
 
