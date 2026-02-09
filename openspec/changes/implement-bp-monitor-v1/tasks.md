@@ -31,11 +31,11 @@
 
 ## 4. Data Layer - Database (Flutter)
 
-- [ ] 4.1 Define Drift database schema (users, patients, risk_factors, medications, readings tables)
-- [ ] 4.2 Create DAOs for each table with CRUD operations
-- [ ] 4.3 Implement database encryption setup with SQLCipher (key in device keychain)
-- [ ] 4.4 Create database migrations strategy
-- [ ] 4.5 Write unit tests for DAOs
+- [x] 4.1 Define Drift database schema (users, patients, risk_factors, medications, readings tables)
+- [x] 4.2 Create DAOs for each table with CRUD operations
+- [x] 4.3 Implement database encryption setup with SQLCipher (key in device keychain)
+- [x] 4.4 Create database migrations strategy
+- [x] 4.5 Write unit tests for DAOs
 
 ## 5. Domain Layer - Entities & Enums (Flutter)
 
