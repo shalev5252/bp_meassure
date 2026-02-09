@@ -1,9 +1,12 @@
+import 'dart:io';
 import 'dart:math';
 
 import 'package:bp_monitor/data/database.dart';
-import 'package:drift_flutter/drift_flutter.dart';
+import 'package:drift/native.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:path/path.dart' as p;
+import 'package:path_provider/path_provider.dart';
 
 const _keyStorageKey = 'bp_monitor_db_key';
 
@@ -25,13 +28,14 @@ final databaseProvider = Provider<AppDatabase>((ref) {
 /// in the ProviderScope.
 Future<AppDatabase> initDatabase() async {
   final key = await _getOrCreateKey();
-  final queryExecutor = driftDatabase(
-    name: 'bp_monitor_encrypted',
-    native: DriftNativeOptions(
-      setup: (db) {
-        db.execute("PRAGMA key = '$key'");
-      },
-    ),
+  final dbDir = await getApplicationDocumentsDirectory();
+  final file = File(p.join(dbDir.path, 'bp_monitor_encrypted.db'));
+
+  final queryExecutor = NativeDatabase(
+    file,
+    setup: (db) {
+      db.execute("PRAGMA key = '$key'");
+    },
   );
   return AppDatabase(queryExecutor);
 }

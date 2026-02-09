@@ -57,14 +57,14 @@
 
 ## 7. Data Layer - Repositories (Flutter)
 
-- [ ] 7.1 Define repository interfaces in domain layer
-- [ ] 7.2 Implement UserRepository (local cache of Firebase user)
-- [ ] 7.3 Implement PatientRepository (CRUD for single patient per user)
-- [ ] 7.4 Implement RiskFactorRepository (get/set per patient)
-- [ ] 7.5 Implement MedicationRepository (CRUD, active/inactive filter)
-- [ ] 7.6 Implement ReadingRepository (CRUD, date range queries, quality filter, backdating support)
-- [ ] 7.7 Implement AIRepository (remote API calls with Firebase token)
-- [ ] 7.8 Create mappers between database models and domain entities
+- [x] 7.1 Define repository interfaces in domain layer
+- [x] 7.2 Implement UserRepository (local cache of Firebase user)
+- [x] 7.3 Implement PatientRepository (CRUD for single patient per user)
+- [x] 7.4 Implement RiskFactorRepository (get/set per patient)
+- [x] 7.5 Implement MedicationRepository (CRUD, active/inactive filter)
+- [x] 7.6 Implement ReadingRepository (CRUD, date range queries, quality filter, backdating support)
+- [x] 7.7 Implement AIRepository (remote API calls with Firebase token)
+- [x] 7.8 Create mappers between database models and domain entities
 
 ## 8. Internationalization (Flutter)
 
