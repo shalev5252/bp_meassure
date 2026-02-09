@@ -4,11 +4,11 @@
 
 - [x] 1.1 Update `pubspec.yaml` with required dependencies (firebase_core, firebase_auth, drift, sqlcipher_flutter_libs, riverpod, go_router, intl, pdf, csv, flutter_secure_storage, dio, connectivity_plus)
 - [x] 1.2 Create Flutter project directory structure per architecture spec
-- [ ] 1.3 Configure analysis_options.yaml with strict linting rules
-- [ ] 1.4 Set up l10n.yaml for localization generation
-- [ ] 1.5 Configure Firebase project (iOS and Android)
-- [ ] 1.6 Create backend directory structure with FastAPI skeleton
-- [ ] 1.7 Configure backend requirements.txt/pyproject.toml (fastapi, uvicorn, pydantic, openai, firebase-admin, slowapi)
+- [x] 1.3 Configure analysis_options.yaml with strict linting rules
+- [x] 1.4 Set up l10n.yaml for localization generation
+- [x] 1.5 Configure Firebase project (iOS and Android)
+- [x] 1.6 Create backend directory structure with FastAPI skeleton
+- [x] 1.7 Configure backend requirements.txt/pyproject.toml (fastapi, uvicorn, pydantic, openai, firebase-admin, slowapi)
 
 ## 2. Core Layer (Flutter)
 
