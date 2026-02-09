@@ -49,11 +49,11 @@
 
 ## 6. Domain Layer - Services (Flutter)
 
-- [ ] 6.1 Implement AnalyticsService (7d/30d averages, std dev, trends, threshold percentages, min 3 readings check)
-- [ ] 6.2 Implement SafetyService (BP red flags: SYS≥180 or DIA≥120; Pulse warnings: <50 or >100 bpm)
-- [ ] 6.3 Implement ExportService (PDF and CSV generation)
-- [ ] 6.4 Write unit tests for analytics calculations
-- [ ] 6.5 Write unit tests for safety detection (including pulse)
+- [x] 6.1 Implement AnalyticsService (7d/30d averages, std dev, trends, threshold percentages, min 3 readings check)
+- [x] 6.2 Implement SafetyService (BP red flags: SYS≥180 or DIA≥120; Pulse warnings: <50 or >100 bpm)
+- [x] 6.3 Implement ExportService (PDF and CSV generation)
+- [x] 6.4 Write unit tests for analytics calculations
+- [x] 6.5 Write unit tests for safety detection (including pulse)
 
 ## 7. Data Layer - Repositories (Flutter)
 
@@ -68,12 +68,12 @@
 
 ## 8. Internationalization (Flutter)
 
-- [ ] 8.1 Create ARB files for English (en) locale
-- [ ] 8.2 Create ARB files for Hebrew (he) locale
-- [ ] 8.3 Implement LocaleProvider with runtime switching
-- [ ] 8.4 Configure MaterialApp with localization delegates
-- [ ] 8.5 Verify RTL layout for Hebrew
-- [ ] 8.6 Localize date and number formatting
+- [x] 8.1 Create ARB files for English (en) locale
+- [x] 8.2 Create ARB files for Hebrew (he) locale
+- [x] 8.3 Implement LocaleProvider with runtime switching
+- [x] 8.4 Configure MaterialApp with localization delegates
+- [x] 8.5 Verify RTL layout for Hebrew
+- [x] 8.6 Localize date and number formatting
 
 ## 9. Presentation Layer - Routing & Theme (Flutter)
 
