@@ -153,38 +153,38 @@
 
 ## 19. Backend - Core Setup (FastAPI)
 
-- [ ] 19.1 Create FastAPI app with CORS, request ID middleware
-- [ ] 19.2 Configure settings/environment loading (OpenAI key, Firebase project)
-- [ ] 19.3 Set up structured logging (no PII)
-- [ ] 19.4 Implement rate limiting middleware
+- [x] 19.1 Create FastAPI app with CORS, request ID middleware
+- [x] 19.2 Configure settings/environment loading (OpenAI key, Firebase project)
+- [x] 19.3 Set up structured logging (no PII)
+- [x] 19.4 Implement rate limiting middleware
 
 ## 20. Backend - Authentication (FastAPI)
 
-- [ ] 20.1 Initialize Firebase Admin SDK
-- [ ] 20.2 Create Firebase token verification middleware
-- [ ] 20.3 Extract user ID from verified token
+- [x] 20.1 Initialize Firebase Admin SDK
+- [x] 20.2 Create Firebase token verification middleware
+- [x] 20.3 Extract user ID from verified token
 
 ## 21. Backend - Endpoints (FastAPI)
 
-- [ ] 21.1 Implement GET /health endpoint
-- [ ] 21.2 Implement GET /meta/supported-locales endpoint
-- [ ] 21.3 Implement POST /v1/ai/analyze endpoint with request validation
-- [ ] 21.4 Apply authentication to /v1/ai/analyze
+- [x] 21.1 Implement GET /health endpoint
+- [x] 21.2 Implement GET /meta/supported-locales endpoint
+- [x] 21.3 Implement POST /v1/ai/analyze endpoint with request validation
+- [x] 21.4 Apply authentication to /v1/ai/analyze
 
 ## 22. Backend - AI Service (FastAPI)
 
-- [ ] 22.1 Create OpenAI client wrapper (GPT-4o-mini)
-- [ ] 22.2 Implement prompt builder with safety guardrails
-- [ ] 22.3 Implement response parser with content filtering
-- [ ] 22.4 Add safety override logic (block AI for BP red flag cases)
-- [ ] 22.5 Implement localized disclaimers (en/he)
+- [x] 22.1 Create OpenAI client wrapper (GPT-4o-mini)
+- [x] 22.2 Implement prompt builder with safety guardrails
+- [x] 22.3 Implement response parser with content filtering
+- [x] 22.4 Add safety override logic (block AI for BP red flag cases)
+- [x] 22.5 Implement localized disclaimers (en/he)
 
 ## 23. Backend - Testing
 
-- [ ] 23.1 Write unit tests for prompt builder
-- [ ] 23.2 Write unit tests for safety rules
-- [ ] 23.3 Write integration tests for /v1/ai/analyze endpoint
-- [ ] 23.4 Add test fixtures with sample payloads
+- [x] 23.1 Write unit tests for prompt builder
+- [x] 23.2 Write unit tests for safety rules
+- [x] 23.3 Write integration tests for /v1/ai/analyze endpoint
+- [x] 23.4 Add test fixtures with sample payloads
 
 ## 24. Integration & Polish
 
