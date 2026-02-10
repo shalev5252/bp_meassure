@@ -409,4 +409,95 @@ class AppLocalizationsHe extends AppLocalizations {
 
   @override
   String get viewHistory => 'היסטוריה';
+
+  @override
+  String get readingSaved => 'המדידה נשמרה';
+
+  @override
+  String get readingDeleted => 'המדידה נמחקה';
+
+  @override
+  String get readingDeleteConfirm => 'האם אתה בטוח שברצונך למחוק מדידה זו?';
+
+  @override
+  String get readingEditTitle => 'עריכת מדידה';
+
+  @override
+  String get invalidSystolic => 'סיסטולי חייב להיות בין 50 ל-300';
+
+  @override
+  String get invalidDiastolic => 'דיאסטולי חייב להיות בין 20 ל-200';
+
+  @override
+  String get invalidPulse => 'דופק חייב להיות בין 20 ל-250';
+
+  @override
+  String get systolicRequired => 'סיסטולי נדרש';
+
+  @override
+  String get diastolicRequired => 'דיאסטולי נדרש';
+
+  @override
+  String get filterAll => 'הכל';
+
+  @override
+  String get filterValid => 'תקין';
+
+  @override
+  String get filterInvalid => 'לא תקין';
+
+  @override
+  String get trendUp => 'עלייה';
+
+  @override
+  String get trendDown => 'ירידה';
+
+  @override
+  String get trendStable => 'יציב';
+
+  @override
+  String get morningAvg => 'ממוצע בוקר';
+
+  @override
+  String get eveningAvg => 'ממוצע ערב';
+
+  @override
+  String get dateFrom => 'מתאריך';
+
+  @override
+  String get dateTo => 'עד תאריך';
+
+  @override
+  String get riskFactorNotes => 'הערות';
+
+  @override
+  String get aiAnalyze => 'ניתוח';
+
+  @override
+  String get aiLoading => 'מנתח את הנתונים שלך...';
+
+  @override
+  String get aiSummary => 'סיכום';
+
+  @override
+  String get aiPatternAnalysis => 'ניתוח דפוסים';
+
+  @override
+  String get aiContributingFactors => 'גורמים תורמים';
+
+  @override
+  String get aiLifestyleGuidance => 'הנחיות אורח חיים';
+
+  @override
+  String get aiConsultRecommendation => 'המלצה להתייעצות';
+
+  @override
+  String get aiDoctorQuestions => 'שאלות לרופא שלך';
+
+  @override
+  String get aboutVersion => 'גרסה 1.0.0';
+
+  @override
+  String get aboutDescription =>
+      'אפליקציה למעקב אחר לחץ דם למעקב בריאותי אישי.';
 }

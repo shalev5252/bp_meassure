@@ -1,11 +1,22 @@
+import 'package:bp_monitor/domain/entities/reading_entity.dart';
+import 'package:bp_monitor/presentation/screens/ai/ai_insights_screen.dart';
+import 'package:bp_monitor/presentation/screens/analytics/analytics_screen.dart';
 import 'package:bp_monitor/presentation/screens/auth/login_screen.dart';
 import 'package:bp_monitor/presentation/screens/auth/reset_password_screen.dart';
 import 'package:bp_monitor/presentation/screens/auth/signup_screen.dart';
+import 'package:bp_monitor/presentation/screens/export/export_screen.dart';
 import 'package:bp_monitor/presentation/screens/home/home_screen.dart';
 import 'package:bp_monitor/presentation/screens/onboarding/language_selection_screen.dart';
 import 'package:bp_monitor/presentation/screens/onboarding/medications_screen.dart';
 import 'package:bp_monitor/presentation/screens/onboarding/profile_screen.dart';
 import 'package:bp_monitor/presentation/screens/onboarding/risk_factors_screen.dart';
+import 'package:bp_monitor/presentation/screens/profile/medications_manage_screen.dart';
+import 'package:bp_monitor/presentation/screens/profile/profile_view_screen.dart';
+import 'package:bp_monitor/presentation/screens/profile/risk_factors_manage_screen.dart';
+import 'package:bp_monitor/presentation/screens/readings/reading_detail_screen.dart';
+import 'package:bp_monitor/presentation/screens/readings/reading_form_screen.dart';
+import 'package:bp_monitor/presentation/screens/readings/reading_history_screen.dart';
+import 'package:bp_monitor/presentation/screens/settings/settings_screen.dart';
 import 'package:bp_monitor/presentation/state/auth_provider.dart';
 import 'package:bp_monitor/presentation/state/onboarding_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -85,6 +96,66 @@ final routerProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: '/home',
         builder: (_, _) => const HomeScreen(),
+      ),
+
+      // Readings
+      GoRoute(
+        path: '/new-reading',
+        builder: (_, _) => const ReadingFormScreen(),
+      ),
+      GoRoute(
+        path: '/readings',
+        builder: (_, _) => const ReadingHistoryScreen(),
+      ),
+      GoRoute(
+        path: '/reading/:id',
+        builder: (_, state) => ReadingDetailScreen(
+          readingId: state.pathParameters['id']!,
+        ),
+      ),
+      GoRoute(
+        path: '/reading/:id/edit',
+        builder: (_, state) => ReadingFormScreen(
+          existingReading: state.extra as ReadingEntity?,
+        ),
+      ),
+
+      // Analytics
+      GoRoute(
+        path: '/analytics',
+        builder: (_, _) => const AnalyticsScreen(),
+      ),
+
+      // Profile
+      GoRoute(
+        path: '/profile',
+        builder: (_, _) => const ProfileViewScreen(),
+      ),
+      GoRoute(
+        path: '/profile/risk-factors',
+        builder: (_, _) => const RiskFactorsManageScreen(),
+      ),
+      GoRoute(
+        path: '/profile/medications',
+        builder: (_, _) => const MedicationsManageScreen(),
+      ),
+
+      // AI
+      GoRoute(
+        path: '/ai',
+        builder: (_, _) => const AiInsightsScreen(),
+      ),
+
+      // Export
+      GoRoute(
+        path: '/export',
+        builder: (_, _) => const ExportScreen(),
+      ),
+
+      // Settings
+      GoRoute(
+        path: '/settings',
+        builder: (_, _) => const SettingsScreen(),
       ),
     ],
   );

@@ -1,16 +1,19 @@
 import 'package:bp_monitor/core/errors.dart';
 import 'package:bp_monitor/data/database_provider.dart';
+import 'package:bp_monitor/data/repositories/ai_repository_impl.dart';
 import 'package:bp_monitor/data/repositories/medication_repository_impl.dart';
 import 'package:bp_monitor/data/repositories/patient_repository_impl.dart';
 import 'package:bp_monitor/data/repositories/reading_repository_impl.dart';
 import 'package:bp_monitor/data/repositories/risk_factor_repository_impl.dart';
 import 'package:bp_monitor/data/repositories/user_repository_impl.dart';
+import 'package:bp_monitor/domain/repositories/ai_repository.dart';
 import 'package:bp_monitor/domain/repositories/medication_repository.dart';
 import 'package:bp_monitor/domain/repositories/patient_repository.dart';
 import 'package:bp_monitor/domain/repositories/reading_repository.dart';
 import 'package:bp_monitor/domain/repositories/risk_factor_repository.dart';
 import 'package:bp_monitor/domain/repositories/user_repository.dart';
 import 'package:bp_monitor/presentation/state/auth_provider.dart';
+import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 // ---------------------------------------------------------------------------
@@ -40,6 +43,18 @@ final medicationRepositoryProvider = Provider<MedicationRepository>((ref) {
 final readingRepositoryProvider = Provider<ReadingRepository>((ref) {
   final db = ref.watch(databaseProvider);
   return ReadingRepositoryImpl(readingDao: db.readingDao);
+});
+
+final aiRepositoryProvider = Provider<AiRepository>((ref) {
+  final dio = Dio(BaseOptions(
+    baseUrl: const String.fromEnvironment(
+      'API_BASE_URL',
+      defaultValue: 'http://localhost:8000',
+    ),
+    connectTimeout: const Duration(seconds: 30),
+    receiveTimeout: const Duration(seconds: 60),
+  ));
+  return AiRepositoryImpl(dio: dio);
 });
 
 // ---------------------------------------------------------------------------

@@ -889,6 +889,186 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'History'**
   String get viewHistory;
+
+  /// No description provided for @readingSaved.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading saved'**
+  String get readingSaved;
+
+  /// No description provided for @readingDeleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading deleted'**
+  String get readingDeleted;
+
+  /// No description provided for @readingDeleteConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete this reading?'**
+  String get readingDeleteConfirm;
+
+  /// No description provided for @readingEditTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Reading'**
+  String get readingEditTitle;
+
+  /// No description provided for @invalidSystolic.
+  ///
+  /// In en, this message translates to:
+  /// **'Systolic must be between 50 and 300'**
+  String get invalidSystolic;
+
+  /// No description provided for @invalidDiastolic.
+  ///
+  /// In en, this message translates to:
+  /// **'Diastolic must be between 20 and 200'**
+  String get invalidDiastolic;
+
+  /// No description provided for @invalidPulse.
+  ///
+  /// In en, this message translates to:
+  /// **'Pulse must be between 20 and 250'**
+  String get invalidPulse;
+
+  /// No description provided for @systolicRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Systolic is required'**
+  String get systolicRequired;
+
+  /// No description provided for @diastolicRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Diastolic is required'**
+  String get diastolicRequired;
+
+  /// No description provided for @filterAll.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get filterAll;
+
+  /// No description provided for @filterValid.
+  ///
+  /// In en, this message translates to:
+  /// **'Valid'**
+  String get filterValid;
+
+  /// No description provided for @filterInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid'**
+  String get filterInvalid;
+
+  /// No description provided for @trendUp.
+  ///
+  /// In en, this message translates to:
+  /// **'Rising'**
+  String get trendUp;
+
+  /// No description provided for @trendDown.
+  ///
+  /// In en, this message translates to:
+  /// **'Falling'**
+  String get trendDown;
+
+  /// No description provided for @trendStable.
+  ///
+  /// In en, this message translates to:
+  /// **'Stable'**
+  String get trendStable;
+
+  /// No description provided for @morningAvg.
+  ///
+  /// In en, this message translates to:
+  /// **'Morning Avg'**
+  String get morningAvg;
+
+  /// No description provided for @eveningAvg.
+  ///
+  /// In en, this message translates to:
+  /// **'Evening Avg'**
+  String get eveningAvg;
+
+  /// No description provided for @dateFrom.
+  ///
+  /// In en, this message translates to:
+  /// **'From'**
+  String get dateFrom;
+
+  /// No description provided for @dateTo.
+  ///
+  /// In en, this message translates to:
+  /// **'To'**
+  String get dateTo;
+
+  /// No description provided for @riskFactorNotes.
+  ///
+  /// In en, this message translates to:
+  /// **'Notes'**
+  String get riskFactorNotes;
+
+  /// No description provided for @aiAnalyze.
+  ///
+  /// In en, this message translates to:
+  /// **'Analyze'**
+  String get aiAnalyze;
+
+  /// No description provided for @aiLoading.
+  ///
+  /// In en, this message translates to:
+  /// **'Analyzing your data...'**
+  String get aiLoading;
+
+  /// No description provided for @aiSummary.
+  ///
+  /// In en, this message translates to:
+  /// **'Summary'**
+  String get aiSummary;
+
+  /// No description provided for @aiPatternAnalysis.
+  ///
+  /// In en, this message translates to:
+  /// **'Pattern Analysis'**
+  String get aiPatternAnalysis;
+
+  /// No description provided for @aiContributingFactors.
+  ///
+  /// In en, this message translates to:
+  /// **'Contributing Factors'**
+  String get aiContributingFactors;
+
+  /// No description provided for @aiLifestyleGuidance.
+  ///
+  /// In en, this message translates to:
+  /// **'Lifestyle Guidance'**
+  String get aiLifestyleGuidance;
+
+  /// No description provided for @aiConsultRecommendation.
+  ///
+  /// In en, this message translates to:
+  /// **'Consultation Recommendation'**
+  String get aiConsultRecommendation;
+
+  /// No description provided for @aiDoctorQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'Questions for Your Doctor'**
+  String get aiDoctorQuestions;
+
+  /// No description provided for @aboutVersion.
+  ///
+  /// In en, this message translates to:
+  /// **'Version 1.0.0'**
+  String get aboutVersion;
+
+  /// No description provided for @aboutDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Blood pressure monitoring app for personal health tracking.'**
+  String get aboutDescription;
 }
 
 class _AppLocalizationsDelegate

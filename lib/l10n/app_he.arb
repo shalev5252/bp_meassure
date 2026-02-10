@@ -147,5 +147,40 @@
   "latestReading": "מדידה אחרונה",
   "sevenDaySummary": "סיכום 7 ימים",
   "noReadingsYet": "אין מדידות עדיין. הוסף את המדידה הראשונה!",
-  "viewHistory": "היסטוריה"
+  "viewHistory": "היסטוריה",
+
+  "readingSaved": "המדידה נשמרה",
+  "readingDeleted": "המדידה נמחקה",
+  "readingDeleteConfirm": "האם אתה בטוח שברצונך למחוק מדידה זו?",
+  "readingEditTitle": "עריכת מדידה",
+  "invalidSystolic": "סיסטולי חייב להיות בין 50 ל-300",
+  "invalidDiastolic": "דיאסטולי חייב להיות בין 20 ל-200",
+  "invalidPulse": "דופק חייב להיות בין 20 ל-250",
+  "systolicRequired": "סיסטולי נדרש",
+  "diastolicRequired": "דיאסטולי נדרש",
+  "filterAll": "הכל",
+  "filterValid": "תקין",
+  "filterInvalid": "לא תקין",
+
+  "trendUp": "עלייה",
+  "trendDown": "ירידה",
+  "trendStable": "יציב",
+  "morningAvg": "ממוצע בוקר",
+  "eveningAvg": "ממוצע ערב",
+  "dateFrom": "מתאריך",
+  "dateTo": "עד תאריך",
+
+  "riskFactorNotes": "הערות",
+
+  "aiAnalyze": "ניתוח",
+  "aiLoading": "מנתח את הנתונים שלך...",
+  "aiSummary": "סיכום",
+  "aiPatternAnalysis": "ניתוח דפוסים",
+  "aiContributingFactors": "גורמים תורמים",
+  "aiLifestyleGuidance": "הנחיות אורח חיים",
+  "aiConsultRecommendation": "המלצה להתייעצות",
+  "aiDoctorQuestions": "שאלות לרופא שלך",
+
+  "aboutVersion": "גרסה 1.0.0",
+  "aboutDescription": "אפליקציה למעקב אחר לחץ דם למעקב בריאותי אישי."
 }

@@ -109,7 +109,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 message: l.noReadingsYet,
                 icon: Icons.monitor_heart_outlined,
                 action: FilledButton.icon(
-                  onPressed: () => context.go('/new-reading'),
+                  onPressed: () => context.push('/new-reading'),
                   icon: const Icon(Icons.add),
                   label: Text(l.newReading),
                 ),
@@ -387,19 +387,39 @@ class _QuickActions extends ConsumerWidget {
         ActionChip(
           avatar: const Icon(Icons.add),
           label: Text(l.newReading),
-          onPressed: () => context.go('/new-reading'),
+          onPressed: () => context.push('/new-reading'),
         ),
         ActionChip(
           avatar: const Icon(Icons.history),
           label: Text(l.viewHistory),
-          onPressed: () => context.go('/readings'),
+          onPressed: () => context.push('/readings'),
+        ),
+        ActionChip(
+          avatar: const Icon(Icons.bar_chart),
+          label: Text(l.analytics),
+          onPressed: () => context.push('/analytics'),
         ),
         if (isOnline)
           ActionChip(
             avatar: const Icon(Icons.auto_awesome),
             label: Text(l.aiInsights),
-            onPressed: () => context.go('/ai'),
+            onPressed: () => context.push('/ai'),
           ),
+        ActionChip(
+          avatar: const Icon(Icons.person),
+          label: Text(l.profile),
+          onPressed: () => context.push('/profile'),
+        ),
+        ActionChip(
+          avatar: const Icon(Icons.download),
+          label: Text(l.exportTitle),
+          onPressed: () => context.push('/export'),
+        ),
+        ActionChip(
+          avatar: const Icon(Icons.settings),
+          label: Text(l.settings),
+          onPressed: () => context.push('/settings'),
+        ),
       ],
     );
   }

@@ -147,5 +147,40 @@
   "latestReading": "Latest Reading",
   "sevenDaySummary": "7-Day Summary",
   "noReadingsYet": "No readings yet. Add your first reading!",
-  "viewHistory": "History"
+  "viewHistory": "History",
+
+  "readingSaved": "Reading saved",
+  "readingDeleted": "Reading deleted",
+  "readingDeleteConfirm": "Are you sure you want to delete this reading?",
+  "readingEditTitle": "Edit Reading",
+  "invalidSystolic": "Systolic must be between 50 and 300",
+  "invalidDiastolic": "Diastolic must be between 20 and 200",
+  "invalidPulse": "Pulse must be between 20 and 250",
+  "systolicRequired": "Systolic is required",
+  "diastolicRequired": "Diastolic is required",
+  "filterAll": "All",
+  "filterValid": "Valid",
+  "filterInvalid": "Invalid",
+
+  "trendUp": "Rising",
+  "trendDown": "Falling",
+  "trendStable": "Stable",
+  "morningAvg": "Morning Avg",
+  "eveningAvg": "Evening Avg",
+  "dateFrom": "From",
+  "dateTo": "To",
+
+  "riskFactorNotes": "Notes",
+
+  "aiAnalyze": "Analyze",
+  "aiLoading": "Analyzing your data...",
+  "aiSummary": "Summary",
+  "aiPatternAnalysis": "Pattern Analysis",
+  "aiContributingFactors": "Contributing Factors",
+  "aiLifestyleGuidance": "Lifestyle Guidance",
+  "aiConsultRecommendation": "Consultation Recommendation",
+  "aiDoctorQuestions": "Questions for Your Doctor",
+
+  "aboutVersion": "Version 1.0.0",
+  "aboutDescription": "Blood pressure monitoring app for personal health tracking."
 }

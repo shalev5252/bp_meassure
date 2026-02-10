@@ -409,4 +409,96 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get viewHistory => 'History';
+
+  @override
+  String get readingSaved => 'Reading saved';
+
+  @override
+  String get readingDeleted => 'Reading deleted';
+
+  @override
+  String get readingDeleteConfirm =>
+      'Are you sure you want to delete this reading?';
+
+  @override
+  String get readingEditTitle => 'Edit Reading';
+
+  @override
+  String get invalidSystolic => 'Systolic must be between 50 and 300';
+
+  @override
+  String get invalidDiastolic => 'Diastolic must be between 20 and 200';
+
+  @override
+  String get invalidPulse => 'Pulse must be between 20 and 250';
+
+  @override
+  String get systolicRequired => 'Systolic is required';
+
+  @override
+  String get diastolicRequired => 'Diastolic is required';
+
+  @override
+  String get filterAll => 'All';
+
+  @override
+  String get filterValid => 'Valid';
+
+  @override
+  String get filterInvalid => 'Invalid';
+
+  @override
+  String get trendUp => 'Rising';
+
+  @override
+  String get trendDown => 'Falling';
+
+  @override
+  String get trendStable => 'Stable';
+
+  @override
+  String get morningAvg => 'Morning Avg';
+
+  @override
+  String get eveningAvg => 'Evening Avg';
+
+  @override
+  String get dateFrom => 'From';
+
+  @override
+  String get dateTo => 'To';
+
+  @override
+  String get riskFactorNotes => 'Notes';
+
+  @override
+  String get aiAnalyze => 'Analyze';
+
+  @override
+  String get aiLoading => 'Analyzing your data...';
+
+  @override
+  String get aiSummary => 'Summary';
+
+  @override
+  String get aiPatternAnalysis => 'Pattern Analysis';
+
+  @override
+  String get aiContributingFactors => 'Contributing Factors';
+
+  @override
+  String get aiLifestyleGuidance => 'Lifestyle Guidance';
+
+  @override
+  String get aiConsultRecommendation => 'Consultation Recommendation';
+
+  @override
+  String get aiDoctorQuestions => 'Questions for Your Doctor';
+
+  @override
+  String get aboutVersion => 'Version 1.0.0';
+
+  @override
+  String get aboutDescription =>
+      'Blood pressure monitoring app for personal health tracking.';
 }

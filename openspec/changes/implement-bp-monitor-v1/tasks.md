@@ -106,50 +106,50 @@
 
 ## 13. Presentation Layer - Readings (Flutter)
 
-- [ ] 13.1 Create reading entry form (systolic, diastolic, pulse, taken_at with backdating, context tags, quality, notes)
-- [ ] 13.2 Implement form validation (valid BP ranges, pulse range)
-- [ ] 13.3 Create reading history list with filtering
-- [ ] 13.4 Create reading detail view with edit/delete
-- [ ] 13.5 Integrate safety warning screen for BP red flag readings
-- [ ] 13.6 Integrate pulse warning display (non-blocking)
+- [x] 13.1 Create reading entry form (systolic, diastolic, pulse, taken_at with backdating, context tags, quality, notes)
+- [x] 13.2 Implement form validation (valid BP ranges, pulse range)
+- [x] 13.3 Create reading history list with filtering
+- [x] 13.4 Create reading detail view with edit/delete
+- [x] 13.5 Integrate safety warning screen for BP red flag readings
+- [x] 13.6 Integrate pulse warning display (non-blocking)
 
 ## 14. Presentation Layer - Analytics (Flutter)
 
-- [ ] 14.1 Create analytics dashboard screen
-- [ ] 14.2 Show "Add more readings" message if <3 readings
-- [ ] 14.3 Implement BP trend chart (line graph)
-- [ ] 14.4 Display computed metrics (averages, std dev, threshold percentages)
-- [ ] 14.5 Add date range selector
-- [ ] 14.6 Show morning vs evening comparison
+- [x] 14.1 Create analytics dashboard screen
+- [x] 14.2 Show "Add more readings" message if <3 readings
+- [x] 14.3 Implement BP trend chart (line graph)
+- [x] 14.4 Display computed metrics (averages, std dev, threshold percentages)
+- [x] 14.5 Add date range selector
+- [x] 14.6 Show morning vs evening comparison
 
 ## 15. Presentation Layer - Profile (Flutter)
 
-- [ ] 15.1 Create patient profile view/edit screen
-- [ ] 15.2 Create risk factors management screen (checklist with notes)
-- [ ] 15.3 Create medications list screen
-- [ ] 15.4 Create medication add/edit form
+- [x] 15.1 Create patient profile view/edit screen
+- [x] 15.2 Create risk factors management screen (checklist with notes)
+- [x] 15.3 Create medications list screen
+- [x] 15.4 Create medication add/edit form
 
 ## 16. Presentation Layer - AI Insights (Flutter)
 
-- [ ] 16.1 Hide AI section/button when offline (using connectivity service)
-- [ ] 16.2 Create AI insights request screen with optional user question
-- [ ] 16.3 Implement AI consent flow (first-time use)
-- [ ] 16.4 Display AI response with structured sections
-- [ ] 16.5 Handle loading and error states
-- [ ] 16.6 Block AI access when BP safety flags are active
+- [x] 16.1 Hide AI section/button when offline (using connectivity service)
+- [x] 16.2 Create AI insights request screen with optional user question
+- [x] 16.3 Implement AI consent flow (first-time use)
+- [x] 16.4 Display AI response with structured sections
+- [x] 16.5 Handle loading and error states
+- [x] 16.6 Block AI access when BP safety flags are active
 
 ## 17. Presentation Layer - Export (Flutter)
 
-- [ ] 17.1 Create export options screen (PDF/CSV selection, date range)
-- [ ] 17.2 Implement PDF report generation with graphs
-- [ ] 17.3 Implement CSV export
-- [ ] 17.4 Integrate with device share sheet
+- [x] 17.1 Create export options screen (PDF/CSV selection, date range)
+- [x] 17.2 Implement PDF report generation with graphs
+- [x] 17.3 Implement CSV export
+- [x] 17.4 Integrate with device share sheet
 
 ## 18. Presentation Layer - Settings (Flutter)
 
-- [ ] 18.1 Create settings screen (language toggle, logout, about, export all data)
-- [ ] 18.2 Implement language switching with app restart if needed
-- [ ] 18.3 Implement logout with confirmation
+- [x] 18.1 Create settings screen (language toggle, logout, about, export all data)
+- [x] 18.2 Implement language switching with app restart if needed
+- [x] 18.3 Implement logout with confirmation
 
 ## 19. Backend - Core Setup (FastAPI)
 
