@@ -111,8 +111,41 @@
   "riskFactorsChronic": "מצבים כרוניים",
   "riskFactorsLifestyle": "אורח חיים",
   "riskFactorsFamily": "היסטוריה משפחתית",
+  "riskDiabetesType2": "סוכרת סוג 2",
+  "riskDiabetesType1": "סוכרת סוג 1",
+  "riskCkd": "מחלת כליות כרונית",
+  "riskHeartFailure": "אי ספיקת לב",
+  "riskPriorStroke": "שבץ קודם",
+  "riskPriorMi": "התקף לב קודם",
+  "riskAtrialFibrillation": "פרפור פרוזדורים",
+  "riskSmokerCurrent": "מעשן כיום",
+  "riskSmokerFormer": "מעשן לשעבר",
+  "riskObesityBmi30": "השמנה (BMI ≥ 30)",
+  "riskSedentaryLifestyle": "אורח חיים יושבני",
+  "riskHighSaltDiet": "תזונה עתירת מלח",
+  "riskExcessAlcohol": "צריכת אלכוהול מופרזת",
+  "riskFamilyHypertension": "היסטוריה משפחתית של יתר לחץ דם",
+  "riskFamilyHeartDisease": "היסטוריה משפחתית של מחלות לב",
+  "riskFamilyDiabetes": "היסטוריה משפחתית של סוכרת",
+
+  "nameRequired": "שם נדרש",
 
   "settingsLanguage": "שפה",
   "settingsAbout": "אודות",
-  "settingsExportAll": "ייצוא כל הנתונים"
+  "settingsExportAll": "ייצוא כל הנתונים",
+
+  "noAccount": "אין לך חשבון?",
+  "haveAccount": "כבר יש לך חשבון?",
+  "createAccount": "יצירת חשבון",
+  "resetPasswordSent": "נשלח אימייל לאיפוס סיסמה. בדוק את תיבת הדואר.",
+  "sendResetLink": "שלח קישור לאיפוס",
+  "passwordHint": "לפחות 6 תווים",
+  "emailRequired": "אימייל נדרש",
+  "passwordRequired": "סיסמה נדרשת",
+  "invalidEmail": "הזן כתובת אימייל תקינה",
+
+  "latestReading": "מדידה אחרונה",
+  "sevenDaySummary": "סיכום 7 ימים",
+  "noReadingsYet": "אין מדידות עדיין. הוסף את המדידה הראשונה!",
+  "viewHistory": "היסטוריה"
 }

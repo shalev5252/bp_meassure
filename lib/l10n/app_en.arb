@@ -111,8 +111,41 @@
   "riskFactorsChronic": "Chronic Conditions",
   "riskFactorsLifestyle": "Lifestyle",
   "riskFactorsFamily": "Family History",
+  "riskDiabetesType2": "Diabetes Type 2",
+  "riskDiabetesType1": "Diabetes Type 1",
+  "riskCkd": "Chronic Kidney Disease",
+  "riskHeartFailure": "Heart Failure",
+  "riskPriorStroke": "Prior Stroke",
+  "riskPriorMi": "Prior Heart Attack",
+  "riskAtrialFibrillation": "Atrial Fibrillation",
+  "riskSmokerCurrent": "Current Smoker",
+  "riskSmokerFormer": "Former Smoker",
+  "riskObesityBmi30": "Obesity (BMI ≥ 30)",
+  "riskSedentaryLifestyle": "Sedentary Lifestyle",
+  "riskHighSaltDiet": "High Salt Diet",
+  "riskExcessAlcohol": "Excess Alcohol",
+  "riskFamilyHypertension": "Family History of Hypertension",
+  "riskFamilyHeartDisease": "Family History of Heart Disease",
+  "riskFamilyDiabetes": "Family History of Diabetes",
+
+  "nameRequired": "Name is required",
 
   "settingsLanguage": "Language",
   "settingsAbout": "About",
-  "settingsExportAll": "Export All Data"
+  "settingsExportAll": "Export All Data",
+
+  "noAccount": "Don't have an account?",
+  "haveAccount": "Already have an account?",
+  "createAccount": "Create Account",
+  "resetPasswordSent": "Password reset email sent. Check your inbox.",
+  "sendResetLink": "Send Reset Link",
+  "passwordHint": "At least 6 characters",
+  "emailRequired": "Email is required",
+  "passwordRequired": "Password is required",
+  "invalidEmail": "Enter a valid email address",
+
+  "latestReading": "Latest Reading",
+  "sevenDaySummary": "7-Day Summary",
+  "noReadingsYet": "No readings yet. Add your first reading!",
+  "viewHistory": "History"
 }

@@ -77,32 +77,32 @@
 
 ## 9. Presentation Layer - Routing & Theme (Flutter)
 
-- [ ] 9.1 Configure GoRouter with auth-aware routes (login, onboarding, main app)
-- [ ] 9.2 Create app theme (light mode, colors for BP categories, pulse warning colors)
-- [ ] 9.3 Create responsive layout utilities
+- [x] 9.1 Configure GoRouter with auth-aware routes (login, onboarding, main app)
+- [x] 9.2 Create app theme (light mode, colors for BP categories, pulse warning colors)
+- [x] 9.3 Create responsive layout utilities
 
 ## 10. Presentation Layer - Auth Screens (Flutter)
 
-- [ ] 10.1 Create login screen (email/password)
-- [ ] 10.2 Create sign up screen (email/password with validation)
-- [ ] 10.3 Create password reset screen
-- [ ] 10.4 Implement auth state navigation (redirect based on auth/onboarding status)
+- [x] 10.1 Create login screen (email/password)
+- [x] 10.2 Create sign up screen (email/password with validation)
+- [x] 10.3 Create password reset screen
+- [x] 10.4 Implement auth state navigation (redirect based on auth/onboarding status)
 
 ## 11. Presentation Layer - Onboarding (Flutter)
 
-- [ ] 11.1 Create language selection screen (first step)
-- [ ] 11.2 Create patient profile creation screen (name required, demographics optional)
-- [ ] 11.3 Create risk factors disclosure screen (checklist by category)
-- [ ] 11.4 Create medications entry screen (optional, can skip)
-- [ ] 11.5 Implement onboarding flow state management
-- [ ] 11.6 Track onboarding completion status
+- [x] 11.1 Create language selection screen (first step)
+- [x] 11.2 Create patient profile creation screen (name required, demographics optional)
+- [x] 11.3 Create risk factors disclosure screen (checklist by category)
+- [x] 11.4 Create medications entry screen (optional, can skip)
+- [x] 11.5 Implement onboarding flow state management
+- [x] 11.6 Track onboarding completion status
 
 ## 12. Presentation Layer - Home (Flutter)
 
-- [ ] 12.1 Create home screen (single patient, no switcher)
-- [ ] 12.2 Display latest reading with classification badge
-- [ ] 12.3 Show 7-day summary metrics (or "add more readings" if <3)
-- [ ] 12.4 Add quick action buttons (new reading, view history, AI insights - hide AI if offline)
+- [x] 12.1 Create home screen (single patient, no switcher)
+- [x] 12.2 Display latest reading with classification badge
+- [x] 12.3 Show 7-day summary metrics (or "add more readings" if <3)
+- [x] 12.4 Add quick action buttons (new reading, view history, AI insights - hide AI if offline)
 
 ## 13. Presentation Layer - Readings (Flutter)
 

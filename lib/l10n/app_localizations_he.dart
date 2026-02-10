@@ -311,6 +311,57 @@ class AppLocalizationsHe extends AppLocalizations {
   String get riskFactorsFamily => 'היסטוריה משפחתית';
 
   @override
+  String get riskDiabetesType2 => 'סוכרת סוג 2';
+
+  @override
+  String get riskDiabetesType1 => 'סוכרת סוג 1';
+
+  @override
+  String get riskCkd => 'מחלת כליות כרונית';
+
+  @override
+  String get riskHeartFailure => 'אי ספיקת לב';
+
+  @override
+  String get riskPriorStroke => 'שבץ קודם';
+
+  @override
+  String get riskPriorMi => 'התקף לב קודם';
+
+  @override
+  String get riskAtrialFibrillation => 'פרפור פרוזדורים';
+
+  @override
+  String get riskSmokerCurrent => 'מעשן כיום';
+
+  @override
+  String get riskSmokerFormer => 'מעשן לשעבר';
+
+  @override
+  String get riskObesityBmi30 => 'השמנה (BMI ≥ 30)';
+
+  @override
+  String get riskSedentaryLifestyle => 'אורח חיים יושבני';
+
+  @override
+  String get riskHighSaltDiet => 'תזונה עתירת מלח';
+
+  @override
+  String get riskExcessAlcohol => 'צריכת אלכוהול מופרזת';
+
+  @override
+  String get riskFamilyHypertension => 'היסטוריה משפחתית של יתר לחץ דם';
+
+  @override
+  String get riskFamilyHeartDisease => 'היסטוריה משפחתית של מחלות לב';
+
+  @override
+  String get riskFamilyDiabetes => 'היסטוריה משפחתית של סוכרת';
+
+  @override
+  String get nameRequired => 'שם נדרש';
+
+  @override
   String get settingsLanguage => 'שפה';
 
   @override
@@ -318,4 +369,44 @@ class AppLocalizationsHe extends AppLocalizations {
 
   @override
   String get settingsExportAll => 'ייצוא כל הנתונים';
+
+  @override
+  String get noAccount => 'אין לך חשבון?';
+
+  @override
+  String get haveAccount => 'כבר יש לך חשבון?';
+
+  @override
+  String get createAccount => 'יצירת חשבון';
+
+  @override
+  String get resetPasswordSent =>
+      'נשלח אימייל לאיפוס סיסמה. בדוק את תיבת הדואר.';
+
+  @override
+  String get sendResetLink => 'שלח קישור לאיפוס';
+
+  @override
+  String get passwordHint => 'לפחות 6 תווים';
+
+  @override
+  String get emailRequired => 'אימייל נדרש';
+
+  @override
+  String get passwordRequired => 'סיסמה נדרשת';
+
+  @override
+  String get invalidEmail => 'הזן כתובת אימייל תקינה';
+
+  @override
+  String get latestReading => 'מדידה אחרונה';
+
+  @override
+  String get sevenDaySummary => 'סיכום 7 ימים';
+
+  @override
+  String get noReadingsYet => 'אין מדידות עדיין. הוסף את המדידה הראשונה!';
+
+  @override
+  String get viewHistory => 'היסטוריה';
 }

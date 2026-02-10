@@ -311,6 +311,57 @@ class AppLocalizationsEn extends AppLocalizations {
   String get riskFactorsFamily => 'Family History';
 
   @override
+  String get riskDiabetesType2 => 'Diabetes Type 2';
+
+  @override
+  String get riskDiabetesType1 => 'Diabetes Type 1';
+
+  @override
+  String get riskCkd => 'Chronic Kidney Disease';
+
+  @override
+  String get riskHeartFailure => 'Heart Failure';
+
+  @override
+  String get riskPriorStroke => 'Prior Stroke';
+
+  @override
+  String get riskPriorMi => 'Prior Heart Attack';
+
+  @override
+  String get riskAtrialFibrillation => 'Atrial Fibrillation';
+
+  @override
+  String get riskSmokerCurrent => 'Current Smoker';
+
+  @override
+  String get riskSmokerFormer => 'Former Smoker';
+
+  @override
+  String get riskObesityBmi30 => 'Obesity (BMI ≥ 30)';
+
+  @override
+  String get riskSedentaryLifestyle => 'Sedentary Lifestyle';
+
+  @override
+  String get riskHighSaltDiet => 'High Salt Diet';
+
+  @override
+  String get riskExcessAlcohol => 'Excess Alcohol';
+
+  @override
+  String get riskFamilyHypertension => 'Family History of Hypertension';
+
+  @override
+  String get riskFamilyHeartDisease => 'Family History of Heart Disease';
+
+  @override
+  String get riskFamilyDiabetes => 'Family History of Diabetes';
+
+  @override
+  String get nameRequired => 'Name is required';
+
+  @override
   String get settingsLanguage => 'Language';
 
   @override
@@ -318,4 +369,44 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get settingsExportAll => 'Export All Data';
+
+  @override
+  String get noAccount => 'Don\'t have an account?';
+
+  @override
+  String get haveAccount => 'Already have an account?';
+
+  @override
+  String get createAccount => 'Create Account';
+
+  @override
+  String get resetPasswordSent =>
+      'Password reset email sent. Check your inbox.';
+
+  @override
+  String get sendResetLink => 'Send Reset Link';
+
+  @override
+  String get passwordHint => 'At least 6 characters';
+
+  @override
+  String get emailRequired => 'Email is required';
+
+  @override
+  String get passwordRequired => 'Password is required';
+
+  @override
+  String get invalidEmail => 'Enter a valid email address';
+
+  @override
+  String get latestReading => 'Latest Reading';
+
+  @override
+  String get sevenDaySummary => '7-Day Summary';
+
+  @override
+  String get noReadingsYet => 'No readings yet. Add your first reading!';
+
+  @override
+  String get viewHistory => 'History';
 }

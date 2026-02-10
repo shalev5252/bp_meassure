@@ -7,6 +7,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
+import 'package:sqlcipher_flutter_libs/sqlcipher_flutter_libs.dart';
+import 'package:sqlite3/open.dart';
 
 const _keyStorageKey = 'bp_monitor_db_key';
 
@@ -27,6 +29,11 @@ final databaseProvider = Provider<AppDatabase>((ref) {
 /// Call this once during app bootstrap, then override [databaseProvider]
 /// in the ProviderScope.
 Future<AppDatabase> initDatabase() async {
+  // Configure sqlite3 to use the SQLCipher library bundled by
+  // sqlcipher_flutter_libs. Without this, Android cannot find the native .so.
+  await applyWorkaroundToOpenSqlCipherOnOldAndroidVersions();
+  open.overrideFor(OperatingSystem.android, openCipherOnAndroid);
+
   final key = await _getOrCreateKey();
   final dbDir = await getApplicationDocumentsDirectory();
   final file = File(p.join(dbDir.path, 'bp_monitor_encrypted.db'));

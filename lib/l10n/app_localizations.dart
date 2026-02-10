@@ -692,6 +692,108 @@ abstract class AppLocalizations {
   /// **'Family History'**
   String get riskFactorsFamily;
 
+  /// No description provided for @riskDiabetesType2.
+  ///
+  /// In en, this message translates to:
+  /// **'Diabetes Type 2'**
+  String get riskDiabetesType2;
+
+  /// No description provided for @riskDiabetesType1.
+  ///
+  /// In en, this message translates to:
+  /// **'Diabetes Type 1'**
+  String get riskDiabetesType1;
+
+  /// No description provided for @riskCkd.
+  ///
+  /// In en, this message translates to:
+  /// **'Chronic Kidney Disease'**
+  String get riskCkd;
+
+  /// No description provided for @riskHeartFailure.
+  ///
+  /// In en, this message translates to:
+  /// **'Heart Failure'**
+  String get riskHeartFailure;
+
+  /// No description provided for @riskPriorStroke.
+  ///
+  /// In en, this message translates to:
+  /// **'Prior Stroke'**
+  String get riskPriorStroke;
+
+  /// No description provided for @riskPriorMi.
+  ///
+  /// In en, this message translates to:
+  /// **'Prior Heart Attack'**
+  String get riskPriorMi;
+
+  /// No description provided for @riskAtrialFibrillation.
+  ///
+  /// In en, this message translates to:
+  /// **'Atrial Fibrillation'**
+  String get riskAtrialFibrillation;
+
+  /// No description provided for @riskSmokerCurrent.
+  ///
+  /// In en, this message translates to:
+  /// **'Current Smoker'**
+  String get riskSmokerCurrent;
+
+  /// No description provided for @riskSmokerFormer.
+  ///
+  /// In en, this message translates to:
+  /// **'Former Smoker'**
+  String get riskSmokerFormer;
+
+  /// No description provided for @riskObesityBmi30.
+  ///
+  /// In en, this message translates to:
+  /// **'Obesity (BMI ≥ 30)'**
+  String get riskObesityBmi30;
+
+  /// No description provided for @riskSedentaryLifestyle.
+  ///
+  /// In en, this message translates to:
+  /// **'Sedentary Lifestyle'**
+  String get riskSedentaryLifestyle;
+
+  /// No description provided for @riskHighSaltDiet.
+  ///
+  /// In en, this message translates to:
+  /// **'High Salt Diet'**
+  String get riskHighSaltDiet;
+
+  /// No description provided for @riskExcessAlcohol.
+  ///
+  /// In en, this message translates to:
+  /// **'Excess Alcohol'**
+  String get riskExcessAlcohol;
+
+  /// No description provided for @riskFamilyHypertension.
+  ///
+  /// In en, this message translates to:
+  /// **'Family History of Hypertension'**
+  String get riskFamilyHypertension;
+
+  /// No description provided for @riskFamilyHeartDisease.
+  ///
+  /// In en, this message translates to:
+  /// **'Family History of Heart Disease'**
+  String get riskFamilyHeartDisease;
+
+  /// No description provided for @riskFamilyDiabetes.
+  ///
+  /// In en, this message translates to:
+  /// **'Family History of Diabetes'**
+  String get riskFamilyDiabetes;
+
+  /// No description provided for @nameRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Name is required'**
+  String get nameRequired;
+
   /// No description provided for @settingsLanguage.
   ///
   /// In en, this message translates to:
@@ -709,6 +811,84 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Export All Data'**
   String get settingsExportAll;
+
+  /// No description provided for @noAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have an account?'**
+  String get noAccount;
+
+  /// No description provided for @haveAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Already have an account?'**
+  String get haveAccount;
+
+  /// No description provided for @createAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Create Account'**
+  String get createAccount;
+
+  /// No description provided for @resetPasswordSent.
+  ///
+  /// In en, this message translates to:
+  /// **'Password reset email sent. Check your inbox.'**
+  String get resetPasswordSent;
+
+  /// No description provided for @sendResetLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Send Reset Link'**
+  String get sendResetLink;
+
+  /// No description provided for @passwordHint.
+  ///
+  /// In en, this message translates to:
+  /// **'At least 6 characters'**
+  String get passwordHint;
+
+  /// No description provided for @emailRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Email is required'**
+  String get emailRequired;
+
+  /// No description provided for @passwordRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Password is required'**
+  String get passwordRequired;
+
+  /// No description provided for @invalidEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid email address'**
+  String get invalidEmail;
+
+  /// No description provided for @latestReading.
+  ///
+  /// In en, this message translates to:
+  /// **'Latest Reading'**
+  String get latestReading;
+
+  /// No description provided for @sevenDaySummary.
+  ///
+  /// In en, this message translates to:
+  /// **'7-Day Summary'**
+  String get sevenDaySummary;
+
+  /// No description provided for @noReadingsYet.
+  ///
+  /// In en, this message translates to:
+  /// **'No readings yet. Add your first reading!'**
+  String get noReadingsYet;
+
+  /// No description provided for @viewHistory.
+  ///
+  /// In en, this message translates to:
+  /// **'History'**
+  String get viewHistory;
 }
 
 class _AppLocalizationsDelegate

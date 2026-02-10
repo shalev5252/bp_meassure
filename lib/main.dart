@@ -1,6 +1,9 @@
+import 'package:bp_monitor/data/database_provider.dart';
 import 'package:bp_monitor/firebase_options.dart';
 import 'package:bp_monitor/l10n/app_localizations.dart';
+import 'package:bp_monitor/presentation/routing/app_router.dart';
 import 'package:bp_monitor/presentation/state/locale_provider.dart';
+import 'package:bp_monitor/presentation/theme/app_theme.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -11,7 +14,17 @@ Future<void> main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(const ProviderScope(child: BpMonitorApp()));
+
+  final db = await initDatabase();
+
+  runApp(
+    ProviderScope(
+      overrides: [
+        databaseProvider.overrideWithValue(db),
+      ],
+      child: const BpMonitorApp(),
+    ),
+  );
 }
 
 class BpMonitorApp extends ConsumerWidget {
@@ -20,8 +33,9 @@ class BpMonitorApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final locale = ref.watch(localeProvider);
+    final router = ref.watch(routerProvider);
 
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'BP Monitor',
       locale: locale,
       supportedLocales: supportedLocales,
@@ -31,13 +45,8 @@ class BpMonitorApp extends ConsumerWidget {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
-        useMaterial3: true,
-      ),
-      home: const Scaffold(
-        body: Center(child: Text('BP Monitor')),
-      ),
+      theme: AppTheme.light,
+      routerConfig: router,
     );
   }
 }
